@@ -32,8 +32,8 @@ public class MainController extends HttpServlet{
 			context="/"+uris[0]+"/";
 			if(uris[0].equals("location")) {
 				page="location.jsp";
-			}else if(uris[0].equals("location3")) {
-				page="location3.jsp";
+			}else if(uris[0].equals("training")) {
+				page="training.jsp";
 			}else if(uris[0].equals("realchat")) {
 				if(request.getSession().getAttribute("id")==null) {
 					//로그인이 되지 않았을 때 서비스 불가

@@ -7,7 +7,7 @@
 			<a href="/index" class="name">Climbing Helper</a>
 			    <nav id="main_nav" class="main_nav">		
 				    <a href="/location">서울 클라이밍 위치</a>
-				    <a href="training.html" class="training">트레이닝 종류</a>		
+				    <a href="/training" class="training">트레이닝 종류</a>		
 				    <a href="#" class="magazine">매거진</a>
                     <a href="board" class="border">게시판</a>
             <c:if test="${empty id}" >
